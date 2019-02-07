@@ -14,7 +14,7 @@ build: $(BUILDER)
 	$(BUILDER) -noskip
 
 $(BUILDER):
-	curl -k $(BUILDER_URL) -o $(BUILDERZIP)
+	curl -L -k $(BUILDER_URL) -o $(BUILDERZIP)
 	unzip $(BUILDERZIP)
 	mv ./grace-circleci-builder $(BUILDER)
 	chmod +x $(BUILDER)
