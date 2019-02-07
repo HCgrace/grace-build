@@ -8,9 +8,6 @@ export PATH := $(shell pwd):$(PATH)
 .PHONY: build init
 
 build: $(BUILDER)
-	@echo "CIRCLE_USERNAME: $(CIRCLE_USERNAME)"
-	@echo "APPENV: $(APPENV)"
-	@echo "TOKEN_ENV: $(TOKEN_ENV)"
 	builder -noskip
 
 $(BUILDER):
