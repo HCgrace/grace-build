@@ -1,5 +1,5 @@
 BUILDER=./builder
-APPENV=$(shell echo $VAR | tr '[:lower:]' '[:upper:]')
+APPENV=$(shell echo "${CIRCLE_BRANCH}" | tr '[:lower:]' '[:upper:]')
 TOKEN_ENV=$(APPENV)_TOKEN
 
 .PHONY: build init
