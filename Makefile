@@ -1,4 +1,5 @@
 BUILDER=./builder
+BUILDERZIP=builder.zip
 APPENV=$(shell echo "${CIRCLE_BRANCH}" | tr '[:lower:]' '[:upper:]')
 TOKEN_ENV=$(APPENV)_TOKEN
 TOKEN=$(shell echo "${$(TOKEN_ENV)}")
@@ -13,7 +14,7 @@ build: $(BUILDER)
 	$(BUILDER) -noskip
 
 $(BUILDER):
-	curl -k $(BUILDER_URL) -o builder.zip
-	unzip builder.zip
-	mv grace-circleci-builder $(BUILDER)
+	curl -k $(BUILDER_URL) -o $(BUILDERZIP)
+	gunzip $(BUILDERZIP)
+	mv ./grace-circleci-builder $(BUILDER)
 	chmod +x $(BUILDER)
