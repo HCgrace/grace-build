@@ -9,8 +9,8 @@ build: $(BUILDER)
 	@echo "CIRCLE_USERNAME: $(CIRCLE_USERNAME)"
 	@echo "APPENV: $(APPENV)"
 	@echo "TOKEN_ENV: $(TOKEN_ENV)"
-	@export CIRCLECI_TOKEN=$(TOKEN)
-	$(BUILDER) -noskip
+	@export CIRCLECI_TOKEN="$(TOKEN)"
+	builder -noskip
 
 $(BUILDER):
 	curl -k $(BUILDER_URL) -o $(BUILDER)
