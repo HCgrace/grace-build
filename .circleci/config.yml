@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/golang:latest
+    working_directory: /go/src/github.com/GSA/grace-citest
+    steps:
+      - checkout
+      - run:
+          name: Run Build
+          command: |
+            pwd && make build
+workflows:
+  version: 2
+  deploy:
+    jobs:
+      - build
