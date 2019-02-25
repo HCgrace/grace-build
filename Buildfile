@@ -1,6 +1,6 @@
 [{
-	"name":"grace-inventory-lambda",
-	"repository":"https://github.com/GSA/grace-inventory-lambda",
+	"name":"grace-customer",
+	"repository":"https://github.com/GSA/grace-customer",
 	"branch":"master",
-	"commit":"e283981817d90a46cae1fcdf310956c49e3beebc"
+	"commit":"e09e285182698647df8e5fe800c27f6979f14543"
 }]
