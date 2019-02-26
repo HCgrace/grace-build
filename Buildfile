@@ -2,5 +2,5 @@
 	"name":"grace-customer",
 	"repository":"https://github.com/GSA/grace-customer",
 	"branch":"master",
-	"commit":"502cf695e89f0219989f35687a9661fafb26de79"
+	"commit":"93af7ba622df701a76ef826963caec01cea716df"
 }]
