@@ -3,4 +3,10 @@
 	"repository":"https://github.com/GSA/grace-customer",
 	"branch":"master",
 	"commit":"93af7ba622df701a76ef826963caec01cea716df"
+},
+{
+	"name":"grace-inventory-lambda",
+	"repository":"https://github.com/GSA/grace-inventory-lambda",
+	"branch":"master",
+	"commit":"9a04f023f279b29cd132db55043af3b5ccc8c294"
 }]
