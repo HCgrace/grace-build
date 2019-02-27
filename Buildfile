@@ -8,5 +8,5 @@
 	"name":"grace-inventory-lambda",
 	"repository":"https://github.com/GSA/grace-inventory-lambda",
 	"branch":"master",
-	"commit":"545a054d2a9b5cf4bf4c4032cfa5c8846a65fd8d"
+	"commit":"fd6e710612332c4a235c057ba3806c282c8ef6b6"
 }]
