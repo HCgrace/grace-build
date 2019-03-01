@@ -2,7 +2,7 @@
 	"name":"grace-core",
 	"repository":"https://github.com/GSA/grace-core",
 	"branch":"master",
-	"commit":"e7a965f5866b1f6681ac43edff7537fbdd5dfbfd"
+	"commit":"0a2ab44501526e013f5e0ef12d95bf23cae84f5d"
 },
 {
 	"name":"grace-customer",
