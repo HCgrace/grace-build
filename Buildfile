@@ -9,4 +9,10 @@
 	"repository":"https://github.com/GSA/grace-inventory-lambda",
 	"branch":"master",
 	"commit":"fd6e710612332c4a235c057ba3806c282c8ef6b6"
+},
+{
+	"name":"grace-logging",
+	"repository":"https://github.com/GSA/grace-logging",
+	"branch":"master",
+	"commit":"47b827e7a0dcae1110fc1a10dbf5f58e1311cfd9"
 }]
