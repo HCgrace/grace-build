@@ -8,13 +8,13 @@
 	"name":"grace-customer",
 	"repository":"https://github.com/GSA/grace-customer",
 	"branch":"master",
-	"commit":"2e8b5dfa1e1c31e77c74abf8dfccf79310bc1d5c"
+	"commit":"c22ae9d84f843bc18cfb397315bb3dfee91ac294"
 },
 {
 	"name":"grace-inventory-lambda",
 	"repository":"https://github.com/GSA/grace-inventory-lambda",
 	"branch":"master",
-	"commit":"fd6e710612332c4a235c057ba3806c282c8ef6b6"
+	"commit":"982c2de2d3f49ee2f3aa0eb4f54ff98412536bc7"
 },
 {
 	"name":"grace-logging",
