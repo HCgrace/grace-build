@@ -20,5 +20,5 @@
 	"name":"grace-logging",
 	"repository":"https://github.com/GSA/grace-logging",
 	"branch":"master",
-	"commit":"a259044b5db80233223dd85d723baf52eda7d00c"
+	"commit":"b41f8a782ce6463df8cd496fd2e91468971455fb"
 }]
