@@ -9,7 +9,7 @@ build: $(BUILDER)
 	@echo "CIRCLE_USERNAME: $(CIRCLE_USERNAME)"
 	@echo "APPENV: $(APPENV)"
 	@echo "TOKEN_ENV: $(TOKEN_ENV)"
-	$(BUILDER) -skipdays 30
+	$(BUILDER) -noskip
 
 $(BUILDER):
 	curl -L -k $(BUILDER_URL) -o $(BUILDERZIP)
