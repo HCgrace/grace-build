@@ -8,7 +8,7 @@
 	"name":"grace-customer",
 	"repository":"https://github.com/GSA/grace-customer",
 	"branch":"master",
-	"commit":"187fff8678fead21c7e3098702a56b20a37e46c1"
+	"commit":"bb121ea3e143cba85047c58ebb9786437566b8e0"
 },
 {
 	"name":"grace-inventory-lambda",
